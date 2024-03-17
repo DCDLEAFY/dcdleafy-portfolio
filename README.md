@@ -1,2 +1,2 @@
 # dcdleafy-portfolio
-Angular Portfolio
+My portfolio written in Angular
