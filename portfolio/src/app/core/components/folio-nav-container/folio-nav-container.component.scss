@@ -1,0 +1,13 @@
+.section-container {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    min-height: 100vh;
+    justify-content: space-between;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 0;
+}
