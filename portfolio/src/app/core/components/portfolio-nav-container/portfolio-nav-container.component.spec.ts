@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FolioContainerComponent } from './folio-container.component';
+import { FolioContainerComponent } from './portfolio-nav-container.component';
 
 describe('FolioNavContainerComponent', () => {
   let component: FolioContainerComponent;

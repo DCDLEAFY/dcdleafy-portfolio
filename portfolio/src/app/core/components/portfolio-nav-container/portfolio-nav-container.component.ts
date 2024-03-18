@@ -8,9 +8,9 @@ import { RouterLink, RouterModule } from '@angular/router';
     RouterModule,
     RouterLink
   ],
-  templateUrl: './folio-container.component.html',
-  styleUrl: './folio-container.component.scss'
+  templateUrl: './portfolio-nav-container.component.html',
+  styleUrl: './portfolio-nav-container.component.scss'
 })
-export class FolioContainerComponent {
+export class PortfolioNavContainerComponent {
 
 }

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { FolioContainerComponent } from './core/components/folio-container/folio-container.component';
+import { PortfolioNavContainerComponent } from './core/components/portfolio-nav-container/portfolio-nav-container.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    FolioContainerComponent
+    PortfolioNavContainerComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
