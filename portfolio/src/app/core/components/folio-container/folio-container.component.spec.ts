@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FolioNavContainerComponent } from './folio-nav-container.component';
+import { FolioContainerComponent } from './folio-container.component';
 
 describe('FolioNavContainerComponent', () => {
-  let component: FolioNavContainerComponent;
-  let fixture: ComponentFixture<FolioNavContainerComponent>;
+  let component: FolioContainerComponent;
+  let fixture: ComponentFixture<FolioContainerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FolioNavContainerComponent]
+      imports: [FolioContainerComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(FolioNavContainerComponent);
+    fixture = TestBed.createComponent(FolioContainerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
