@@ -1,8 +1,29 @@
-.section-container {
+.page-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    column-gap: 6rem;
+}
+
+.right-section-container {
+    top: 1px;
+    min-height: 2000px;
+    position: static;
+    width: 100%;
+
+    h1{
+        padding-top: 100px;
+        padding-bottom: 200px;
+        font-size: 2rem;
+    }
+}
+
+.left-section-container {
     display: flex;
     flex-direction: column;
     position: sticky;
-    min-height: 100vh;
+    height: 100vh;
     justify-content: space-between;
 
     padding-top: 100px;
