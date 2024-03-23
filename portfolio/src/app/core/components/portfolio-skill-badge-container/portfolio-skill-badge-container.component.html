@@ -1,5 +1,5 @@
 <div class="skills-section">
-    <ng-container *ngFor="let skill of inputSkills">
-        <span class="skill-badge">{{ skill }}</span>
+    <ng-container *ngFor="let skill of skillList">
+        <span [ngClass]="getClass()">{{ skill }}</span>
     </ng-container>
 </div>
