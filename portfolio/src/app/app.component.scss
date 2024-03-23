@@ -1,4 +1,4 @@
-.page-container{
+.page-container {
     display: flex;
     justify-content: space-between;
     padding-left: 20rem;
@@ -8,14 +8,11 @@
 }
 
 .content-section {
-    top: 1px;
-    min-height: 2000px;
+    padding-top: 50px;
     position: static;
     width: 100%;
+}
 
-    h1{
-        padding-top: 100px;
-        padding-bottom: 200px;
-        font-size: 2rem;
-    }
+.temp {
+    padding-bottom: 1000px;
 }

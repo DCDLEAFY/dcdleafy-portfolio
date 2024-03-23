@@ -1,12 +1,26 @@
 
 <div class="page-container">
-    <app-folio-container></app-folio-container>
+    <app-portfolio-container></app-portfolio-container>
     <div class="content-section">
-        <h1>test1</h1>
-        <h1>test2</h1>
-        <h1>test3</h1>
-        <h1>test4</h1>
-        <h1>test5</h1>
-        <h1>test6</h1>
+        <section id="about">
+            <h2>About</h2>
+            <p class="lead">Full Stack Software Engineer who enjoys solving problems and designing solutions end to end.</p>
+            <p class="lead">When I'm not on the computer, I am usually playing Basketball, Skating, or Games like CIV or Path of Exile.</p>
+            <p class="lead">Skills:</p>
+            <app-portfolio-skill-badge-container [inputSkills]="aboutSkillsSection"></app-portfolio-skill-badge-container>
+            <div class="temp"></div>
+        </section>
+
+        <br>
+
+        <section id="work-experience">
+            
+        </section>
+
+        <br>
+
+        <section id="project">
+            
+        </section>
     </div>
 </div>

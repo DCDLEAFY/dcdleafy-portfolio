@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-folio-container',
+  selector: 'app-portfolio-container',
   standalone: true,
   imports: [
     RouterModule,
@@ -12,5 +12,5 @@ import { RouterLink, RouterModule } from '@angular/router';
   styleUrl: './portfolio-nav-container.component.scss'
 })
 export class PortfolioNavContainerComponent {
-
+  
 }
