@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-import { PortfolioNavContainerComponent } from './core/components/portfolio-nav-container/portfolio-nav-container.component';
+import { PortfolioNavComponent } from './core/components/portfolio-nav/portfolio-nav.component';
 import { aboutSkillsSection } from '../assets/data/data';
 import { CommonModule } from '@angular/common';
-import { PortfolioSkillBadgeContainerComponent } from './core/components/portfolio-skill-badge-container/portfolio-skill-badge-container.component';
+import { PortfolioSkillBadgesComponent } from './core/components/portfolio-skill-badges/portfolio-skill-badges.component';
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    PortfolioNavContainerComponent,
-    PortfolioSkillBadgeContainerComponent,
+    PortfolioNavComponent,
+    PortfolioSkillBadgesComponent,
     CommonModule
   ],
   templateUrl: './app.component.html',
