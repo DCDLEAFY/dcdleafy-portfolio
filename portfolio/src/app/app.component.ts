@@ -15,5 +15,5 @@ import { PortfolioSkillBadgeContainerComponent } from './core/components/portfol
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  aboutSkillsSection: string[] = aboutSkillsSection;
+  aboutSkillList: string[] = aboutSkillsSection;
 }
