@@ -2,5 +2,6 @@ export interface PortfolioInformation{
     title: string,
     description: string,
     imagePath: string,
-    date: string
+    date: string,
+    skillList: string[]
 }

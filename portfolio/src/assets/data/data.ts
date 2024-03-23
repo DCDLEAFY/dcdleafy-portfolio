@@ -6,19 +6,22 @@ const dataWorkExperience: PortfolioInformation[] = [
         title: '[Example Work Area]#1',
         description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
         imagePath: '',
-        date: '01/01/2024'
+        date: '01/01/2024',
+        skillList: []
     },
     {
         title: '[Example Work Area]#2',
         description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
         imagePath: '',
-        date: '02/01/2024'
+        date: '02/01/2024',
+        skillList: []
     },
     {
         title: '[Example Work Area]#3',
         description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
         imagePath: '',
-        date: '03/01/2024'
+        date: '03/01/2024',
+        skillList: []
     },
 ];
 
@@ -27,19 +30,22 @@ const dataProject: PortfolioInformation[] = [
         title: '[Example Project]#1',
         description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
         imagePath: '',
-        date: '01/01/2024'
+        date: '01/01/2024',
+        skillList: []
     },
     {
         title: '[Example Project]#2',
         description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
         imagePath: '',
-        date: '02/01/2024'
+        date: '02/01/2024',
+        skillList: []
     },
     {
         title: '[Example Project]#3',
         description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
         imagePath: '',
-        date: '03/01/2024'
+        date: '03/01/2024',
+        skillList: []
     },
 ];
 
