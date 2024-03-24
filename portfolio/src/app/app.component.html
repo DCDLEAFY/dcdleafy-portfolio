@@ -1,15 +1,12 @@
-<body class="page-container">
+<div class="page-container">
     <app-portfolio-nav></app-portfolio-nav>
     <div class="content-section">
-        <section>
-            <h1>Hi, my name is</h1>
-            <h2>Alif Allgaier</h2>
-            <h2>Full Stack Software Engineer</h2>
+        <section class="intro-section">
+            <app-intro-content></app-intro-content>
         </section>
 
         <section id="about">
             <h2>About</h2>
-            <!-- <app-portfolio-skill-badges [skillList]="aboutSkillList"></app-portfolio-skill-badges> -->
         </section>
 
         <br>
@@ -23,5 +20,9 @@
         <section id="project">
             <h2>Projects</h2>
         </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+        </section>
     </div> 
-</body>
+</div>

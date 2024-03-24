@@ -1,0 +1,33 @@
+@use '../../../../../assets/scss/global-var';
+
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.mini-above-text {
+    font-size: 15px;
+    color: global-var.$special-text;
+}
+
+.name-text {
+    font-family: global-var.$primaryFontReg;
+}
+
+.intro-text {
+    color: global-var.$secondary-text;
+}
+
+.description-text {
+    color: global-var.$secondary-text;
+    font-size: 15px;
+
+    a {
+        text-decoration: none;
+        color: global-var.$special-text;
+        font-weight: bold;
+    }
+}
