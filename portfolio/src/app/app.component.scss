@@ -1,42 +1,25 @@
 @use '../assets/scss/global-var';
 
-@font-face {
-    font-family: 'FiraCodeReg';
-    src: url('../assets/fonts/FiraCode/FiraCode-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'FiraCodeBold';
-    src: url('../assets/fonts/FiraCode/FiraCode-Bold.ttf');
-}
 
 .page-container {
-    color: rgb(231,152,90);
-    font-family: 'FiraCodeReg';
+    color: global-var.$primary-text;
+    font-family: global-var.$primaryFontReg;
 }
 
 .content-section {
-    padding-top: 100px;
+    // padding-top: 100px;
     position: static;
     height: 100%;
     padding-bottom: 1000px;
     background-color: global-var.$primary-background-colour;
     padding-left: 5rem;
     padding-right: 5rem;
-
-    h1 {
-        color: global-var.$special-text;
-    }
-    
-    h2 {
-        color: global-var.$primary-text;
-    }
 }
 
-.info{
-    color: white;
+section {
+    padding-top: 100px;
 }
 
-.temp {
-    padding-bottom: 1000px;
+.intro-section {
+    padding-bottom: 200px;
 }

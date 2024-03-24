@@ -1,12 +1,29 @@
+@font-face {
+    font-family: 'FiraCodeReg';
+    src: url('../fonts/FiraCode/FiraCode-Regular.ttf');
+}
 
-$transparent-primary-background-colour: rgba(19, 29, 53, 0.935);
+@font-face {
+    font-family: 'FiraCodeBold';
+    src: url('../fonts/FiraCode/FiraCode-Bold.ttf');
+}
+
+$primaryFontReg: 'FiraCodeReg';
+$primaryFontBold: 'FiraCodeBold';
+$specialFontReg: '';
+$specialFontBold: '';
+$sectionHeaderTextSize: '';
+$descriptionTextSize: '';
+
+
+
+$transparent-primary-background-colour: rgba(19, 29, 53, 0.496);
 $primary-background-colour: rgb(19,29,53);
 $secondary-background-colour: none;
 $special-text: rgb(231,152,90);
 $primary-text: rgb(204,214,246);
 $secondary-text: rgba(204, 214, 246, 0.613);
 $tertiary-text: none;
-$nav-list-text: none;
 
 
 .hover-underline-animation {
