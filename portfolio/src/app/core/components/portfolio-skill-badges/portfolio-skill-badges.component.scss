@@ -5,18 +5,18 @@
 }
 
 .skill-badge {
-    background-color: teal;
+    background-color: #332a24;
     border-radius: 20px;
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1rem;
-    color: aquamarine;
+    color: #5ecddb;
     font-weight: bold;
 
     &-secondary {
         @extend .skill-badge;
-        background-color: rgba(0, 128, 128, 0.7);
+        background-color: #87552fc1;
         font-size: 0.7rem;
     }
 }
