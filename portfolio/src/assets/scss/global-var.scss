@@ -21,6 +21,7 @@ $transparent-primary-background-colour: rgba(19, 29, 53, 0.496);
 $primary-background-colour: rgb(19,29,53);
 $secondary-background-colour: none;
 $special-text: rgb(231,152,90);
+$transparent-special-text: rgba(231, 151, 90, 0.191);
 $primary-text: rgb(204,214,246);
 $secondary-text: rgba(204, 214, 246, 0.613);
 $tertiary-text: none;
@@ -48,4 +49,12 @@ $tertiary-text: none;
 .hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.span-nav-number {
+    position: absolute;
+    font-size: 100px;
+    color: $transparent-special-text;
+    transform: translate(-100%, -5%);
+    user-select: none;
 }
