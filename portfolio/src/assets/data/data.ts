@@ -1,52 +1,74 @@
 import { PortfolioInformation } from "../../app/core/models/portfolio-information";
 
 
-const dataWorkExperience: PortfolioInformation[] = [
+export const dataWorkExperience: PortfolioInformation[] = [
     {
-        title: '[Example Work Area]#1',
-        description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
+        title: 'Full-Stack Software Engineer',
+        url: '',
+        name: 'Craneware',
         imagePath: '',
-        date: '01/01/2024',
-        skillList: []
+        date: 'Nov 2022 - Present',
+        skillList: [
+            'C#',
+            '.Net 6',
+            '.Net 8',
+            'Angular',
+            'Azure',
+            'MySQL',
+            'CosmosDB',
+            'CI/CD',
+            'Bash',
+            'PowerShell',
+            'Typescript',
+            'Python',
+            'Postman'
+        ],
+        points: [
+            'Played an integral role within a fast-paced platform team, actively contributing to the development, testing, maintenance, and deployment of technical solutions of healthcare customers',
+            'Communicated efficiently with PMs accross the company to help fulfill business needs',
+            'Developed, maintained, and enhanced product backlog items to align seamlessly with Epics and Features crucial for the business objectives',
+            'Ensured the timely and thorough maintenance of our C# projects, which includes updating them from .Net 6 to .Net 8',
+            'Contributed to the maintenance & enhancement of CI/CD pipelines within Azure, allowing for a more streamlined engineering workflow across the organization'
+        ]
     },
     {
-        title: '[Example Work Area]#2',
-        description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
+        title: 'Software Engineer',
+        url: '',
+        name: 'NCR',
         imagePath: '',
-        date: '02/01/2024',
-        skillList: []
-    },
-    {
-        title: '[Example Work Area]#3',
-        description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
-        imagePath: '',
-        date: '03/01/2024',
-        skillList: []
-    },
+        date: 'Jun 2021 - Nov 2022',
+        skillList: [
+            'Java',
+            'C#',
+            'Github',
+            'SVN',
+            'Bash',
+            'Docker',
+            'Azure',
+            'CI/CD',
+            'Postman',
+            'Angular'
+        ],
+        points: [
+            'Worked with other vendors in the ATM scene such as AANDC, Edge, etc',
+            'Took part in a dynamic initiative to convert a Monolithic Software into a more scalable solution. This led to converting the Software Solution to microservices, and then deploying the converted microservices as dockerized containers',
+            'Engineered, improved and maintained CI/CD pipelines utilized by the team within Azure, which led to the overall increase in the detection of errors within the code',
+            'Eased the migration of large repositories from SVN to Github through automating all manual labour through the use of bash scripts',
+            'Maintained healthy coding standards within the team by taking part in Code Reviews'
+        ]
+    }
 ];
 
-const dataProject: PortfolioInformation[] = [
+export const dataProject: PortfolioInformation[] = [
     {
         title: '[Example Project]#1',
-        description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
+        url: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
+        name: '',
         imagePath: '',
         date: '01/01/2024',
-        skillList: []
-    },
-    {
-        title: '[Example Project]#2',
-        description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
-        imagePath: '',
-        date: '02/01/2024',
-        skillList: []
-    },
-    {
-        title: '[Example Project]#3',
-        description: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
-        imagePath: '',
-        date: '03/01/2024',
-        skillList: []
-    },
+        skillList: [],
+        points: []
+    }
 ];
 
 export const aboutSkillsSection: string[] = [
@@ -62,5 +84,3 @@ export const aboutSkillsSection: string[] = [
     'CICD-Pipelines',
     'Git'
 ];
-
-export const fullData: PortfolioInformation[] = dataWorkExperience.concat(dataProject);

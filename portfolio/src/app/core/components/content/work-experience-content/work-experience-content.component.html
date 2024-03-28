@@ -1,1 +1,26 @@
-<p>work-experience-content works!</p>
+
+<div class="experience-section">
+    <span class="span-nav-number move line-on-right">02.</span>
+    <div class="experience-content">
+        <div ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills nav-content" orientation="vertical">
+            <ng-container *ngFor="let info of experienceInfo">
+                <ng-container ngbNavItem="{{ info.name }}">
+                    <button ngbNavLink class="nav-content-button">{{ info.name }}</button>
+                    <ng-template ngbNavContent>
+                        <h3 class="info-title">{{ info.title }} &#64; <a class="hover-underline-animation">[{{ info.name }}]</a></h3>
+                        <h4 class="info-date">{{ info.date }}</h4>
+                        <ul class="bullet-list">
+                            <li class="bullet-list-point" *ngFor="let point of info.points">
+                                {{ point }}
+                            </li>
+                        </ul>
+                        <div class="skill-div">
+                            <app-portfolio-skill-badges [classType]="'secondary'" [skillList]="info.skillList"></app-portfolio-skill-badges>
+                        </div>
+                    </ng-template>
+                </ng-container>
+            </ng-container>
+        </div>
+        <div [ngbNavOutlet]="nav" class="ms-4"></div>
+    </div>
+</div>

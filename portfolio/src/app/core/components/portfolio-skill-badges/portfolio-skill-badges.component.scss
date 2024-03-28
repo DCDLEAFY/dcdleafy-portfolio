@@ -1,22 +1,27 @@
+@use '../../../../assets/scss/global-var';
+
 .skills-section {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
+    box-shadow: 1px 10px 10px -8px rgb(2, 12, 27);
+    border-radius: 100px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .skill-badge {
-    background-color: #332a24;
+    color: global-var.$special-text;
+    background-color: global-var.$transparent-primary-background-colour;
     border-radius: 20px;
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1rem;
-    color: #5ecddb;
     font-weight: bold;
 
     &-secondary {
         @extend .skill-badge;
-        background-color: #87552fc1;
         font-size: 0.7rem;
     }
 }
