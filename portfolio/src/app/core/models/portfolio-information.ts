@@ -1,7 +1,9 @@
 export interface PortfolioInformation{
     title: string,
-    description: string,
+    name: string,
+    url: string,
     imagePath: string,
     date: string,
-    skillList: string[]
+    skillList: string[],
+    points: string[]
 }

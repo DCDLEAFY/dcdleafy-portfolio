@@ -4,8 +4,8 @@
 .intro-section {
     display: flex;
     flex-direction: column;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: global-var.$content-padding;
+    padding-right: global-var.$content-padding;
 }
 
 .mini-above-text {

@@ -1,0 +1,78 @@
+@use '../../../../../assets/scss/global-var';
+
+$hover-background: rgba(40, 52, 81, 0.496);
+
+.experience-section {
+    padding-left: global-var.$content-padding;
+    padding-right: global-var.$content-padding;
+}
+
+.experience-content {
+    display: flex;
+    column-gap: 20px;
+}
+
+.nav-content {
+    min-height: 400px;
+}
+
+.info-date {
+    font-size: 12px;
+}
+
+.bullet-list {
+    list-style-type: none;
+    color: global-var.$secondary-text;
+}
+
+.bullet-list ::before {
+    position: absolute;
+    content: '▹';
+    transform: translateX(-30px);
+    color: global-var.$special-text;
+}
+
+.bullet-list-point {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.nav-content-button {
+    border-radius: 0;
+    color: global-var.$secondary-text;
+    text-align: left;
+    border-left: 5px solid transparent;
+    transition: border-left 0.4s;
+    border-left: 5px solid global-var.$transparent-special-text;
+}
+
+.nav-pills .nav-link.active{
+    background-color: transparent;
+    color: global-var.$special-text;
+    border-left: 5px solid global-var.$special-text;
+}
+
+.nav-content :hover{
+    background-color: $hover-background;
+    color: global-var.$special-text;
+}
+
+.nav-content-button.nav-link.nav-item.active:hover{
+    background-color: $hover-background;
+}
+
+.a-decoration {
+    text-decoration: none;
+}
+
+.move {
+    transform: translate(-100%, -80%);
+}
+
+.info-date {
+    color: global-var.$secondary-text;
+}
+
+.skill-div {
+    padding-left: 32px;
+}
