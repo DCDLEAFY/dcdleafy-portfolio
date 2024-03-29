@@ -4,7 +4,7 @@ import { aboutSkillsSection, dataWorkExperience } from '../assets/data/data';
 import { CommonModule } from '@angular/common';
 import { PortfolioSkillBadgesComponent } from './core/components/portfolio-skill-badges/portfolio-skill-badges.component';
 import { IntroContentComponent } from './core/components/content/intro-content/intro-content.component';
-import { WorkExperienceContentComponent } from './core/components/content/work-experience-content/work-experience-content.component';
+import { TablistContentComponent } from './core/components/content/tablist-content/tablist-content.component';
 import { PortfolioInformation } from './core/models/portfolio-information';
 @Component({
   selector: 'app-root',
@@ -13,7 +13,7 @@ import { PortfolioInformation } from './core/models/portfolio-information';
     PortfolioNavComponent,
     PortfolioSkillBadgesComponent,
     IntroContentComponent,
-    WorkExperienceContentComponent,
+    TablistContentComponent,
     CommonModule
   ],
   templateUrl: './app.component.html',

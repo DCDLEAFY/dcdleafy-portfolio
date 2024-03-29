@@ -5,21 +5,21 @@ import { PortfolioInformation } from '../../../models/portfolio-information';
 import { PortfolioSkillBadgesComponent } from '../../portfolio-skill-badges/portfolio-skill-badges.component';
 
 @Component({
-  selector: 'app-work-experience-content',
+  selector: 'app-tablist-content',
   standalone: true,
   imports: [
     NgbNavModule,
     CommonModule,
     PortfolioSkillBadgesComponent
   ],
-  templateUrl: './work-experience-content.component.html',
-  styleUrl: './work-experience-content.component.scss'
+  templateUrl: './tablist-content.component.html',
+  styleUrl: './tablist-content.component.scss'
 })
-export class WorkExperienceContentComponent implements OnInit {
-  @Input({required: true}) experienceInfo :PortfolioInformation[] = [];
+export class TablistContentComponent implements OnInit {
+  @Input({required: true}) contentInfo :PortfolioInformation[] = [];
   active!: string;
   
   ngOnInit(): void {
-    this.active = this.experienceInfo[0].name;
+    this.active = this.contentInfo[0].name;
   }
 }
