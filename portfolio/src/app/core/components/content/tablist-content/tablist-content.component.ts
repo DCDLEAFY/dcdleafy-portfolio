@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { PortfolioInformation } from '../../../models/portfolio-information';
@@ -9,7 +8,6 @@ import { PortfolioSkillBadgesComponent } from '../../portfolio-skill-badges/port
   standalone: true,
   imports: [
     NgbNavModule,
-    CommonModule,
     PortfolioSkillBadgesComponent
   ],
   templateUrl: './tablist-content.component.html',

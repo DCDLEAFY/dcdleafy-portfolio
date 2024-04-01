@@ -1,5 +1,5 @@
 <div class="skills-section">
-    <ng-container *ngFor="let skill of skillList">
+    @for (skill of skillList; track $index) {
         <span [ngClass]="getClass()">{{ skill }}</span>
-    </ng-container>
+    }
 </div>
