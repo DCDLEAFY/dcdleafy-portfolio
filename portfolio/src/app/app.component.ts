@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { PortfolioNavComponent } from './core/components/portfolio-nav/portfolio-nav.component';
-import { aboutSkillsSection, dataWorkExperience } from '../assets/data/data';
+import { aboutSkillsSection, dataWorkExperience, dataProject } from '../assets/data/data';
 import { CommonModule } from '@angular/common';
 import { PortfolioSkillBadgesComponent } from './core/components/portfolio-skill-badges/portfolio-skill-badges.component';
 import { IntroContentComponent } from './core/components/content/intro-content/intro-content.component';
@@ -22,4 +22,5 @@ import { PortfolioInformation } from './core/models/portfolio-information';
 export class AppComponent {
   aboutSkillList: string[] = aboutSkillsSection;
   experienceInfo: PortfolioInformation[] = dataWorkExperience;
+  projectInfo: PortfolioInformation[] = dataProject;
 }

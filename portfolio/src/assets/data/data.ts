@@ -61,13 +61,36 @@ export const dataWorkExperience: PortfolioInformation[] = [
 
 export const dataProject: PortfolioInformation[] = [
     {
-        title: '[Example Project]#1',
-        url: 'This is an example description, this description has been describing things for millions of years. Hopefully i get to put something useful here.',
-        name: '',
+        title: 'Platform to streamline workflow',
+        url: '',
+        name: 'BountifulNotice',
         imagePath: '',
-        date: '01/01/2024',
-        skillList: [],
-        points: []
+        date: 'Currently working on it',
+        skillList: [
+            'C#',
+            '.Net 8',
+            'Angular',
+            'Figma'
+        ],
+        points: [
+            'temp',
+            'temp',
+            'temp'
+        ]
+    },
+    {
+        title: 'Version 1',
+        url: '',
+        name: 'Portfolio',
+        imagePath: '',
+        date: 'Version 1',
+        skillList: [
+            'Angular'
+        ],
+        points: [
+            'temp',
+            'temp'
+        ]
     }
 ];
 
